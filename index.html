@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>موقع إعلاني خاص بالاسعار</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            direction: rtl;
+            background-color: #f0f0f0;
+            color: #333;
+        }
+        header {
+            background-color: #007BFF;
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+        }
+        header img {
+            max-width: 100px;
+            margin-bottom: 10px;
+        }
+        section {
+            padding: 20px;
+            margin: 10px;
+            background-color: #fff;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        h2 {
+            color: #007BFF;
+        }
+        .offer {
+            border-bottom: 1px solid #ddd;
+            padding-bottom: 10px;
+            margin-bottom: 10px;
+        }
+        .offer:last-child {
+            border-bottom: none;
+        }
+        .footer {
+            text-align: center;
+            padding: 10px;
+            background-color: #007BFF;
+            color: #fff;
+        }
+        .footer a {
+            color: #fff;
+            margin: 0 10px;
+            text-decoration: none;
+        }
+        .footer a:hover {
+            text-decoration: underline;
+        }
+        .footer img {
+            max-width: 100px;
+            margin-top: 10px;
+        }
+        /* تعديل الخلفية لقسم أسعار الرصيد */
+        .balance-section {
+            background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSb4RnbBrP2Lfc9s72jx68sZ4AMAwloHG68BYkK0qCZoushNUZUONkyyX7p&s=10');
+            background-size: cover;
+            background-position: center;
+            color: #fff; /* لجعل النص باللون الأبيض لضمان وضوحه على الخلفية */
+        }
+        .balance-section .offer {
+            background-color: rgba(0, 0, 0, 0.5); /* خلفية شفافة قليلاً للعروض لضمان وضوح النص */
+            padding: 10px;
+            border-radius: 8px;
+        }
+        /* تعديل الخلفية لقسم عروض شحن التطبيقات */
+        .apps-section {
+            background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSb4RnbBrP2Lfc9s72jx68sZ4AMAwloHG68BYkK0qCZoushNUZUONkyyX7p&s=10');
+            background-size: cover;
+            background-position: center;
+            color: #fff;
+        }
+        .apps-section .offer {
+            background-color: rgba(0, 0, 0, 0.5);
+            padding: 10px;
+            border-radius: 8px;
+        }
+        /* تعديل الخلفية لقسم اشتراكات الشاشة الذكية */
+        .smart-screen-section {
+            background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSb4RnbBrP2Lfc9s72jx68sZ4AMAwloHG68BYkK0qCZoushNUZUONkyyX7p&s=10');
+            background-size: cover;
+            background-position: center;
+            color: #fff;
+        }
+        .smart-screen-section .offer {
+            background-color: rgba(0, 0, 0, 0.5);
+            padding: 10px;
+            border-radius: 8px;
+        }
+        /* تعديل الخلفية لقسم تتريك الهواتف الذكية عن بعد */
+        .phone-section {
+            background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSb4RnbBrP2Lfc9s72jx68sZ4AMAwloHG68BYkK0qCZoushNUZUONkyyX7p&s=10');
+            background-size: cover;
+            background-position: center;
+            color: #fff;
+        }
+        .phone-section .offer {
+            background-color: rgba(0, 0, 0, 0.5);
+            padding: 10px;
+            border-radius: 8px;
+        }
+        .marquee {
+            background-color: #007BbF;
+            color: #ffa;
+            padding: 10px;
+            font-size: 30px;
+            font-weight: bold;
+            display: flex;
+            align-items: center;
+        }
+        .marquee img {
+            max-width: 60px;
+            margin-left: 30px;
+        }
+    </style>
+</head>
+<body>
+    <div class="marquee">
+        <marquee behavior="scroll" direction="right">
+            <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjDhybWqQ1dtlLiu_mspmxNejfwtEawvi8dFU2lTR2fvksCvLak2tDEHQnIyuSidp7r3M70rvPuIOfLVe4VH4Fl83ZufV4WvAfGXxx3D3BKpIILOpAM305B1n6Gbu1n2YJ6gm_WEvclSGX9A7cWZDvwEiEw0fG32qGu4M9caZrBjQJ4JNqY9kkH5ewsF8vn/s500/Orange%20Simple%20Clean%20Smartphone%20Repair%20and%20Service%20Logo_20240802_230001_%D9%A0%D9%A0%D9%A0%D9%A0.png" alt="Logo">
+شادي الرز اقدم لكم خدماتي واتشرف بكم جميع
+        </marquee>
+    </div>
+
+    <header>
+        <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgRjFBV7IpVu41Ap9g6kn64lu-DPz4g89hmJuCgKvfH8XoVRh_KxLdCREcfrIScgoy0cKTYBzMNVL4wlBTci198bWi-Bw1ZBolwSAKJXNPlgGLiWPXfV8_farIpzgpb9vFSx6m-zLQ0ctin7EYTKR7msYqzdWmeqGNt2InjWE4OqJIb2079Egd9nSCh5RIK/s500/Blue%20Tech%20Space%20Mobile%20Free%20Logo_20240803_172322_%D9%A0%D9%A0%D9%A0%D9%A0.png" alt="Logo">
+        <h1>موقع إعلاني</h1>
+        <p>عرض أسعار الرصيد، شحن التطبيقات، اشتراكات الشاشة الذكية وتتريك الهواتف الذكية عن بعد</p>
+    </header>
+
+    <section class="balance-section">
+        <h2>أسعار الرصيد السوري</h2>
+        <div class="offer">
+            <h3>7 ليرات تركي</h3>
+            <p>الرصيد: 1000</p>
+        </div>
+        <div class="offer">
+            <h3>10 ليرات تركي</h3>
+            <p>الرصيد: 2000</p>
+        </div>  
+        <div class="offer">
+            <h3>15 ليرة تركي</h3>
+            <p>الرصيد: 3000</p>
+        </div>
+        <div class="offer">
+            <h3>20 ليرة تركي</h3>
+            <p>الرصيد: 4000</p>
+        </div>
+        <div class="offer">
+            <h3>25 ليرة تركي</h3>
+            <p>الرصيد: 5000</p>
+        </div>
+        <div class="offer">
+            <h3>30 ليرة تركي</h3>
+            <p>الرصيد: 6000</p>
+        </div>  
+        <div class="offer">
+            <h3>35 ليرة تركي</h3>
+            <p>الرصيد: 7000</p>
+        </div>
+        <div class="offer">
+            <h3>40 ليرة تركي</h3>
+            <p>الرصيد: 9000</p>
+        </div>
+        <div class="offer">
+            <h3>45 ليرة تركي</h3>
+            <p>الرصيد: 10,000</p>
+        </div>
+        <div class="offer">
+            <h3>60 ليرة تركي</h3>
+            <p>الرصيد: 15,000</p>
+        </div>  
+        <div class="offer">
+            <h3>80 ليرة تركي</h3>
+            <p>الرصيد: 20,000</p>
+        </div>
+        <div class="offer">
+            <h3>110 ليرات تركي</h3>
+            <p>الرصيد: 30,000</p>
+        </div>
+        <div class="offer">
+            <h3>165 ليرة تركي</h3>
+            <p>الرصيد: 50,000</p>
+        </div>
+        <div class="offer">
+            <h3>للمزيد من العروض تواصل معنا</h3>
+        </div>
+        <!-- المزيد من العروض -->
+    </section>
+
+    <section class="apps-section">
+        <h2>عروض شحن التطبيقات</h2>
+        <div class="offer">
+            <h3>شحن ألعاب</h3>
+            <p>بوبجي</p>
+            <p>فري فاير</p>
+            <p>جواكر</p>
+            <p>والعديد من الألعاب</p>
+        </div>
+        <div class="offer">
+            <h3>باقة التطبيقات المتقدمة</h3>
+            <p>تيك توك</p>
+            <p>بيغو لايف</p>
+            <p>وعدد من التطبيقات الأخرى</p>
+        </div>
+        
+              
+        </div>
+        
+        <div class="offer">
+                   <h3>فيديو توضيحي</h3>
+          <iframe width="220" height="280"
+src="https://www.youtube.com/embed/_egq9r-e5q8?si=WhC4jcpgeIEGZ07T">
+</iframe>
+  <div class="offer">
+<a href="https://wa.me/+905375090593" target="_blank" style="font-size: 24px; font-weight: bold;">تواصل عبر واتس آب</a>
